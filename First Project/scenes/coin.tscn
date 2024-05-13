@@ -96,7 +96,6 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_5vw52"]
-radius = 6.0
 
 [node name="coin" type="Area2D"]
 collision_mask = 2
