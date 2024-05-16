@@ -733,10 +733,10 @@ position = Vector2(103, -13)
 position = Vector2(228, -142)
 
 [node name="Slime5" parent="." instance=ExtResource("11_e0qoo")]
-position = Vector2(871, -78)
+position = Vector2(873, -76)
 
 [node name="Slime6" parent="." instance=ExtResource("11_e0qoo")]
-position = Vector2(1173, -110)
+position = Vector2(1176, -109)
 
 [node name="Slime7" parent="." instance=ExtResource("11_e0qoo")]
 position = Vector2(458, -12)
