@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://dw7cx8a6lol3r"]
 
 [ext_resource type="Texture2D" uid="uid://5i70n3133j83" path="res://Assets/sprites/slime_purple.png" id="1_3gutv"]
-[ext_resource type="Script" path="res://scenes/slime.gd" id="1_l3hpp"]
+[ext_resource type="Script" path="res://scripts/slime.gd" id="1_l3hpp"]
 [ext_resource type="PackedScene" uid="uid://dyc7nqfhjtc64" path="res://scenes/killzone.tscn" id="2_6tkxm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ucciq"]
@@ -56,5 +56,10 @@ autoplay = "default"
 position = Vector2(0, 5.5)
 shape = SubResource("RectangleShape2D_w6bcp")
 
-[node name="RayCast2D" type="RayCast2D" parent="."]
-target_position = Vector2(0, 32)
+[node name="RayCastRight" type="RayCast2D" parent="."]
+position = Vector2(0, 6)
+target_position = Vector2(7, 0)
+
+[node name="RayCastLeft" type="RayCast2D" parent="."]
+position = Vector2(0, 6)
+target_position = Vector2(-7, 0)
